@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> online flower delivery</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background-color:rgb(254, 254, 254);
+      color: #333;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 80px;
+      background-color: #fff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    header h1 {
+      font-size: 50px;
+      color: #333;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    #flower{
+      border: #fff;
+      height: 30px;
+      width: 500px;
+      border-radius: 10px;
+      font-size: medium;
+    }
+    
+    
+    nav a {
+      text-decoration: none;
+      color: #333;
+      margin: 0 15px;
+      font-weight: 500;
+    }
+  
+    .hero {
+      background-image: url('./imggh.png');
+      background-size:cover;
+      background-position: center;
+      color: #f1ecec;
+      text-align: left;
+      padding: 150px 80px;
+    }
+    .hero h2 {
+      font-size: 48px;
+      margin-bottom: 20px;
+      max-width: 500px;
+    }
+     /* .hero button {
+      background-color: #994f36;
+      color: #140101;
+      border: none;
+      padding: 15px 30px;
+      border-radius: 25px;
+      font-size: 16px;
+      cursor: pointer;
+    } */
+   
+
+    .featured {
+      text-align: center;
+      padding: 80px 40px;
+    }
+    .featured h2 {
+      font-size: 32px;
+      margin-bottom: 40px;
+    }
+    .flower-grid {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+    .flower-card {
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      width: 250px;
+      padding: 20px;
+      text-align: center;
+    }
+    .flower-card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+  
+    .flower-card h3 {
+      margin: 15px 0 5px;
+    }
+    .flower-card p {
+      color:black;
+      
+    }
+      .earliest  {
+      font-size: small;
+
+    }
+
+    .about {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 80px;
+      gap: 40px;
+    }
+    .about-text {
+      max-width: 500px;
+    }
+    .about img {
+      width: 400px;
+      border-radius: 12px;
+    }
+
+    footer {
+      background-color: #fff;
+      text-align: center;
+      padding: 30px;
+      border-top: 1px solid #eee;
+    }
+    footer p {
+      color: #777;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Fresh Flower 🌷</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Shop</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+      <a href="#"> card🛒</a>
+    </nav>
+    <hr>
+    <nav>
+      <button>🔍︎<select name="flower " id="flower" required>
+                <option value=" search here">serach here </option>
+                <option value="rose bouquet">rose</option>
+                <option value="lily bouquet">lily bouquet</option>
+                <option value="Romantic Blush Rose Bouquet">Romantic Blush Rose Bouquet</option>
+                <option value="Peach N Crimson Bloom Floral Vase">Peach N Crimson Bloom Floral Vase</option>
+                <option value="Personalised Grace Mixed Rose Bouquet">Personalised Grace Mixed Rose Bouquet</option>
+            </select>
+          </button>
+    </nav>
+    
+   <!--<button class="order-btn">Order Now</button> --> 
+
+  </header>
+
+  <section class="hero">
+    <h2>Fresh Flowers for Every Occasion</h2>
+    <!-- <button>Shop Now</button> -->
+  </section>
+
+  <section class="featured">
+    <h2>Featured Flowers</h2>
+    <div class="flower-grid">
+      <div class="flower-card">
+        <img src="./asset.png" alt="Rose Bouquet">
+        <h3>Rose Bouquet</h3>
+        <p>₹650</p>
+            <p class="earliest">Earliest delivery:today</p>
+        <button>order now</button>
+      </div>
+      <div class="flower-card">
+        <img src="./img.png" alt="Tulip Basket">
+        <h3>red rode and pink bouquet</h3>
+        <p>₹600</p>
+        <p class="earliest">Earliest delivery:today</p>
+        <button>order now</button>
+      </div>
+      <div class="flower-card">
+        <img src="./imgg.png" alt="Lily Arrangement">
+        <h3>yellow flower bouquet</h3>
+        <p>₹1150</p>
+        <p class="earliest">Earliest delivery:today</p>
+        <button>order now </button>
+      </div>
+      <div class="flower-card">
+        <img src="./imge.png" alt="bouquet">
+        <h3>bouquet</h3>
+        <p>₹550</p>
+        <p class="earliest">Earliest delivery:today</p>
+        <button>order now</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="about-text">
+      <h2>🅵🅻🅾🆆🅴🆁</h2>
+      <p>At Bloom Garden, we believe every flower tells a story. Our expert florists craft beautiful arrangements for all occasions using the freshest blooms. Let us bring a touch of nature and joy into your life.</p>
+    </div>
+    <img src="./image.png" alt="Florist arranging flowers">
+  </section>
+
+  <footer>
+    <p>&copy; 2005-2025 Rk.com.All copy right reserved. </p>
+  </footer>
+</body>
+</html>
